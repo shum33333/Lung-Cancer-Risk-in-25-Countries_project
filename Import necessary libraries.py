@@ -5,8 +5,8 @@ import seaborn as sns
 
 #df=pd.read_csv('/kaggle/input/lung-cancer-risk-in-25-countries/lung_cancer_prediction_dataset.csv')
 
-df=pd.read_csv('D:/芳珊/202504_Python人工智慧與數據分析/Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
-
+#df=pd.read_csv('D:/芳珊/202504_Python人工智慧與數據分析/Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
+df=pd.read_csv('D:\shan\power-bi_advanced-courses\Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
 df.head()
 print(df.head())
 
@@ -43,3 +43,10 @@ plt.ylabel("Cigarettes per Day")
 plt.title("Cigarettes Per Day for Cancer vs Non-Cancer Patients")
 plt.show()
 
+#Years of Smoking vs Lung Cancer
+plt.figure(figsize=(7, 5))
+sns.boxplot(x="Lung_Cancer_Diagnosis", y="Years_of_Smoking", data=df, palette="muted")
+plt.xlabel("Lung Cancer Diagnosis")  # X 軸標籤
+plt.ylabel("Years of Smoking")       # Y 軸標籤
+plt.title("Years of Smoking for Cancer vs Non-Cancer Patients")  # 標題
+plt.show()
