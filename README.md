@@ -1,19 +1,30 @@
-# 專題名稱（Bilingual Project Title）:Lung Cancer Risk Through Data: Demographic and Environmental Analysis Across 25 Countries
+# 專題名稱
 從數據看肺癌風險：25國家之人口特徵與環境因子分析
 
 
-## 專題說明（Project Description）:本專題使用來自 Kaggle 的「Lung Cancer Risk in 25 Countries」資料集，涵蓋220,000多筆個體資料，記錄了來自25個國家之人口背景、吸菸習慣、環境暴露、家族病史與肺癌診斷等資訊。
+## 專題說明
+本研究專題採用 Kaggle 所提供之「Lung Cancer Risk in 25 Countries」資料集，包含 220,632 筆樣本資料，涵蓋 23 個欄位，記錄來自 25 個國家的個體資料。數據內容涉及人口背景、吸菸習慣、環境暴露、家族病史以及肺癌診斷情形等資訊。根據國家發展程度劃分，其中來自已開發國家的資料占 23.97%，開發中國家則占 76.03%；若依地理區域分類，則包括亞洲 43.96%、歐洲 23.98%、非洲 20.10%、北美洲 7.98%、以及南美洲 3.99%。
+<img width="11551" height="123" alt="image" src="https://github.com/user-attachments/assets/fa9da3af-c635-4fab-b7a3-06e9e58ee58c" />
 
 
 
-## 資料來源/取得方式(Data Source / Acquisition Method):
+## 資料來源
 Kaggle 資料集https://www.kaggle.com/
 
-## 成員 Li Fang Shan
+## 成員 
+Li Fang Shan
 
 ## 分析目的（Analysis Objectives）
+1.透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素。
+2.比較不同族群（性別、年齡、吸菸、家族史）的風險差異。
+3.利用 Power BI 、python進行視覺化與統計分析，挖掘潛在高風險族群。
+4.提供數據支持，作為肺癌預防與健康政策的參考依據。
 
 
-## 預計提供的見解（Expected Insights）
+
+## 結論
+吸菸是罹患肺癌的最大風險因子，戒菸是降低肺癌風險最有效的方法。
+國民健康署（國健署）提供低劑量電腦斷層掃描（LDCT）肺癌篩檢服務給符合特定條件的高風險族群。每兩年一次，且費用由國健署補助。
+
 
 
