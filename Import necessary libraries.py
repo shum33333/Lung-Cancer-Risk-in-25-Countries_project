@@ -6,7 +6,7 @@ import seaborn as sns
 #df=pd.read_csv('/kaggle/input/lung-cancer-risk-in-25-countries/lung_cancer_prediction_dataset.csv')
 
 #df=pd.read_csv('D:/芳珊/202504_Python人工智慧與數據分析/Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
-df=pd.read_csv('D:\shan\power-bi_advanced-courses\Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
+df=pd.read_csv('D:/shan/power-bi_advanced-courses/Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv')
 df.head()
 print(df.head())
 

@@ -8,7 +8,7 @@ from scipy.stats import chi2_contingency
 plt.rcParams['font.family'] = 'Microsoft JhengHei'  # Windows 可用微軟正黑體，mac 可用 'Arial Unicode MS'
 
 # 讀取資料
-df = pd.read_csv(r"D:\shan\power-bi_advanced-courses\Lung-Cancer-Risk-in-25-Countries_project/lung_cancer_prediction_dataset.csv", encoding='utf-8')
+df = pd.read_csv("lung_cancer_prediction_dataset.csv", encoding='utf-8')
 
 # 定義 Cramér's V 計算函數
 def cramers_v(x, y):
