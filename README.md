@@ -9,12 +9,12 @@
 
 
 ## 資料來源
-Kaggle 資料集https://www.kaggle.com/
+Kaggle  https://www.kaggle.com/
 
 ## 成員 
 Li Fang Shan
 
-## 分析目的（Analysis Objectives）
+## 分析目的
 1.透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素。
 2.比較不同族群（性別、年齡、吸菸、家族史）的風險差異。
 3.利用 Power BI 、python進行視覺化與統計分析，挖掘潛在高風險族群。
