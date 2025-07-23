@@ -12,7 +12,7 @@
 Kaggle  https://www.kaggle.com/
 
 ## 成員 
-Li Fang Shan
+李芳珊
 
 ## 分析目的
 1.透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素。
