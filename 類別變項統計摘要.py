@@ -1,8 +1,6 @@
 import pandas as pd
 
 # 匯入資料
-#df = pd.read_csv("lung_cancer_prediction_dataset.csv") # 確保與檔案路徑一致
-
 df = pd.read_csv("lung_cancer_prediction_dataset.csv")
 
 
