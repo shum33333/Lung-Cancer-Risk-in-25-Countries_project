@@ -1,0 +1,36 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                 Cancer   No. Observations:               220632
+Model:                          Logit   Df Residuals:                   220622
+Method:                           MLE   Df Model:                            9
+Date:                Tue, 29 Jul 2025   Pseudo R-squ.:                 0.04498
+Time:                        11:42:49   Log-Likelihood:                -35798.
+converged:                       True   LL-Null:                       -37484.
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -3.9059      0.042    -93.792      0.000      -3.987      -3.824
+Age                        0.0004      0.001      0.617      0.537      -0.001       0.001
+Smoker                     1.2910      0.023     55.115      0.000       1.245       1.337
+Passive_Smoker             0.0264      0.024      1.120      0.263      -0.020       0.073
+Family_History            -0.0290      0.031     -0.941      0.347      -0.089       0.031
+Air_Pollution_Exposure     0.0045      0.015      0.293      0.770      -0.026       0.035
+Occupational_Exposure      0.0357      0.024      1.515      0.130      -0.010       0.082
+Indoor_Pollution          -0.0236      0.026     -0.907      0.364      -0.074       0.027
+Healthcare_Access          0.0174      0.029      0.600      0.548      -0.039       0.074
+Early_Detection            0.0130      0.026      0.503      0.615      -0.038       0.064
+==========================================================================================
+
+勝算比（Odds Ratios）:
+const                     0.020124
+Age                       1.000352
+Smoker                    3.636496
+Passive_Smoker            1.026797
+Family_History            0.971398
+Air_Pollution_Exposure    1.004505
+Occupational_Exposure     1.036297
+Indoor_Pollution          0.976711
+Healthcare_Access         1.017538
+Early_Detection           1.013089
+dtype: float64
