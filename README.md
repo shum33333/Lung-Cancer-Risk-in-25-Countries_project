@@ -51,17 +51,6 @@
       <li>作為肺癌預防政策與健康教育的建議依據</li>
     </ul>
   </div>
-
-  <div class="section">
-    <h2>📊 資料視覺化（封面圖）</h2>
-    <img src="封面圖路徑/從數據看肺癌風險_title.png" alt="從數據看肺癌風險 封面圖">
-  </div>
-
-  <div class="section">
-    <h2>📄 研究摘要 PDF</h2>
-    <p><a href="從數據看肺癌風險：25國家之人口特徵與環境因子分析_20250804版-1.pdf" target="_blank">🔗 點我下載完整報告 PDF</a></p>
-  </div>
-
   <div class="section">
     <h2>📌 分析方法與結果</h2>
     <ul>
