@@ -71,8 +71,8 @@
   </div>
 
   <div class="section">
-    <h2>🙋 作者資訊</h2>
-    <p>李芳珊｜2025 Python 與資料分析實作</p>
+    <h2>🙋 成員</h2>
+    <p>李芳珊｜2025 Python人工智慧與數據分析</p>
   </div>
 
 </body>
