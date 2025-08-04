@@ -1,30 +1,82 @@
-# 專題名稱
-從數據看肺癌風險：25國家之人口特徵與環境因子分析
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>從數據看肺癌風險</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      margin: 2em;
+      line-height: 1.8;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    h1 {
+      color: #0033ff;
+      font-size: 2.5em;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 2em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1em 0;
+    }
+    .section {
+      margin-bottom: 2.5em;
+      padding-bottom: 1em;
+      border-bottom: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
 
+  <h1>從數據看肺癌風險</h1>
+  <h3>25國家之人口特徵與環境因子分析</h3>
 
-## 專題說明
-本研究專題採用 Kaggle 所提供之「Lung Cancer Risk in 25 Countries」資料集，包含 220,632 筆樣本資料，涵蓋 23 個欄位，記錄來自 25 個國家的個體資料。數據內容涉及人口背景、吸菸習慣、環境暴露、家族病史以及肺癌診斷情形等資訊。根據國家發展程度劃分，其中來自已開發國家的資料占 23.97%，開發中國家則占 76.03%；若依地理區域分類，則包括亞洲 43.96%、歐洲 23.98%、非洲 20.10%、北美洲 7.98%、以及南美洲 3.99%。
+  <div class="section">
+    <h2>📘 專題說明</h2>
+    <p>本研究使用 Kaggle 平台提供的「Lung cancer Risk in 25 Countries」資料集，涵蓋來自全球 25 個國家的 22 萬筆人口樣本，資料包含年齡、性別、吸菸狀況、家族病史、環境污染、醫療可近性與肺癌診斷結果等變項。我們透過 Python 與 Power BI 進行視覺化、描述統計、t 檢定、卡方分析與羅吉斯迴歸建模，探索肺癌風險因子。</p>
+  </div>
 
+  <div class="section">
+    <h2>🎯 分析目的</h2>
+    <ul>
+      <li>透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素</li>
+      <li>比較不同族群（性別、年齡、吸菸、家族史）的風險差異</li>
+      <li>利用 Power BI 、python進行視覺化與統計分析</li>
+      <li>作為肺癌預防與健康政策制定的參考依據/li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>📌 分析方法與結果</h2>
+    <ul>
+      <li>📈 使用 Cramér’s V 衡量性別與肺癌類型之關聯</li>
+      <li>📊 執行卡方檢定找出顯著變項（吸菸顯著）</li>
+      <li>📉 雙樣本獨立 t 檢定顯示吸菸年數與每日吸菸量皆顯著</li>
+      <li>📐 邏輯斯迴歸顯示吸菸者罹癌機率為非吸菸者 3.6 倍</li>
+    </ul>
+  </div>
 
+  <div class="section">
+    <h2>🏥 公共衛生建議</h2>
+    <ul>
+      <li>戒菸為最有效的肺癌預防方式</li>
+      <li>建議高風險者定期接受 LDCT 肺癌篩檢</li>
+      <li>推廣國健署補助政策與戒菸服務</li>
+    </ul>
+  </div>
 
+  <div class="section">
+    <h2>🙋 成員</h2>
+    <p>李芳珊｜2025 Python人工智慧與數據分析</p>
+  </div>
 
-## 資料來源
-Kaggle  https://www.kaggle.com/
+</body>
+</html>
 
-## 成員 
-李芳珊
-
-## 分析目的
-1.透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素。
-2.比較不同族群（性別、年齡、吸菸、家族史）的風險差異。
-3.利用 Power BI 、python進行視覺化與統計分析，挖掘潛在高風險族群。
-4.提供數據支持，作為肺癌預防與健康政策的參考依據。
-
-
-
-## 結論
-吸菸是罹患肺癌的最大風險因子，戒菸是降低肺癌風險最有效的方法。
-國民健康署（國健署）提供低劑量電腦斷層掃描（LDCT）肺癌篩檢服務給符合特定條件的高風險族群。每兩年一次，且費用由國健署補助。
 
 
 
