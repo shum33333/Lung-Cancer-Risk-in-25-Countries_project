@@ -1,30 +1,51 @@
-# 專題名稱
-從數據看肺癌風險：25國家之人口特徵與環境因子分析
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>肺癌風險分析專題</title>
+  <style>
+    body { font-family: "Noto Sans TC", sans-serif; margin: 2em; line-height: 1.8; }
+    h1, h2 { color: #2c3e50; }
+    iframe { width: 100%; height: 600px; border: none; }
+    .section { margin-bottom: 2em; }
+  </style>
+</head>
+<body>
 
+  <h1>從數據看肺癌風險：25國家之人口特徵與環境因素分析</h1>
 
-## 專題說明
-本研究專題採用 Kaggle 所提供之「Lung Cancer Risk in 25 Countries」資料集，包含 220,632 筆樣本資料，涵蓋 23 個欄位，記錄來自 25 個國家的個體資料。數據內容涉及人口背景、吸菸習慣、環境暴露、家族病史以及肺癌診斷情形等資訊。根據國家發展程度劃分，其中來自已開發國家的資料占 23.97%，開發中國家則占 76.03%；若依地理區域分類，則包括亞洲 43.96%、歐洲 23.98%、非洲 20.10%、北美洲 7.98%、以及南美洲 3.99%。
+  <div class="section">
+    <h2>📌 專題說明</h2>
+    <p>本研究資料來自 Kaggle 的「Lung Cancer Risk in 25 Countries」，共 220,632 筆資料，涵蓋 25 國家的個體與環境資訊（年齡、性別、吸菸、家族史、污染暴露等）。透過 Power BI 和 Python 進行資料清理與分析，探索肺癌風險之關聯因子。</p>
+  </div>
 
+  <div class="section">
+    <h2>🎯 分析目的</h2>
+    <ul>
+      <li>找出影響肺癌風險的生理及環境因子。</li>
+      <li>比較開發與未開發國家的風險差異。</li>
+      <li>使用 Power BI + Python 做視覺化與機器學習模型分析。</li>
+      <li>提供預防建議，作為國際公共衛生的參考依據。</li>
+    </ul>
+  </div>
 
+  <div class="section">
+    <h2>📊 互動報表展示（Power BI）</h2>
+    <iframe src="https://app.powerbi.com/reportEmbed?reportId=79e9468b-079d-4ae8-a626-66d328160d59&autoAuth=true&ctid=574f8207-9650-449b-8d4b-54da7250173f" allowfullscreen="true"></iframe>
+  </div>
 
+  <div class="section">
+    <h2>👩‍💻 成員</h2>
+    <p>李芳珊</p>
+  </div>
 
-## 資料來源
-Kaggle  https://www.kaggle.com/
+  <footer>
+    <hr>
+    <p>© 2025 李芳珊. 本專案使用資料來源於 Kaggle，僅供學術研究與展示用途。</p>
+  </footer>
 
-## 成員 
-李芳珊
-
-## 分析目的
-1.透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素。
-2.比較不同族群（性別、年齡、吸菸、家族史）的風險差異。
-3.利用 Power BI 、python進行視覺化與統計分析，挖掘潛在高風險族群。
-4.提供數據支持，作為肺癌預防與健康政策的參考依據。
-
-<iframe title="Lung Cancer Risk in 25 Countries" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=79e9468b-079d-4ae8-a626-66d328160d95&autoAuth=true&ctid=574f8207-9650-449b-8d4b-5d4a7250173f" frameborder="0" allowFullScreen="true"></iframe>
-
-## 結論
-吸菸是罹患肺癌的最大風險因子，戒菸是降低肺癌風險最有效的方法。
-國民健康署（國健署）提供低劑量電腦斷層掃描（LDCT）肺癌篩檢服務給符合特定條件的高風險族群。每兩年一次，且費用由國健署補助。
+</body>
+</html>
 
 
 
