@@ -16,16 +16,25 @@
 
   <div class="section">
     <h2>📌 專題說明</h2>
-    <p>本研究資料來自 Kaggle 的「Lung Cancer Risk in 25 Countries」，共 220,632 筆資料，涵蓋 25 國家的個體與環境資訊（年齡、性別、吸菸、家族史、污染暴露等）。透過 Power BI 和 Python 進行資料清理與分析，探索肺癌風險之關聯因子。</p>
+    <p>本研究使用 Kaggle 平台提供的開放資料集，名稱「Lung cancer Risk in 25 Countries」，總共包含了 220,632 筆樣本資料與 23 個欄位。資料涵蓋來自全球 25 個國家的人口背景、吸菸習慣、環境暴露、家族病史，以及是否罹患肺癌等資訊。
+依據國家發展程度劃分：
+已開發國家佔 23.97%，開發中國家佔 76.03%
+按地區分類：亞洲 43.96%、歐洲 23.98%、非洲 20.10%、北美洲 7.98%、南美洲 3.99%
+<img width="6346" height="459" alt="image" src="https://github.com/user-attachments/assets/f3a822ee-15c6-41be-b519-852e1f247efb" />
+</p>
   </div>
 
   <div class="section">
     <h2>🎯 分析目的</h2>
     <ul>
-      <li>找出影響肺癌風險的生理及環境因子。</li>
-      <li>比較開發與未開發國家的風險差異。</li>
-      <li>使用 Power BI + Python 做視覺化與機器學習模型分析。</li>
-      <li>提供預防建議，作為國際公共衛生的參考依據。</li>
+      <li>透過分析 25 國肺癌資料，找出影響肺癌風險的主要因素<img width="1540" height="123" alt="image" src="https://github.com/user-attachments/assets/9f2359ae-7910-4729-aba5-d3b6f77410bf" />
+</li>
+      <li>比較不同族群（性別、年齡、吸菸、家族史）的風險差異<img width="1559" height="123" alt="image" src="https://github.com/user-attachments/assets/6e982013-408e-4801-b116-4748086cdb66" />
+</li>
+      <li>利用 Power BI 、python進行視覺化與統計分析<img width="1321" height="123" alt="image" src="https://github.com/user-attachments/assets/6e4fc770-98f7-47a3-be1a-d6c0d53b0e81" />
+</li>
+      <li>希望這些數據能提供肺癌預防與健康政策制定的參考依據<img width="1559" height="123" alt="image" src="https://github.com/user-attachments/assets/33f35cef-38ca-41c8-a386-25aaf1996a7f" />
+</li>
     </ul>
   </div>
 
