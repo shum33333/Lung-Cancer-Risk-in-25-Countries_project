@@ -20,7 +20,7 @@ Kaggle  https://www.kaggle.com/
 3.利用 Power BI 、python進行視覺化與統計分析，挖掘潛在高風險族群。
 4.提供數據支持，作為肺癌預防與健康政策的參考依據。
 
-
+<iframe title="Lung Cancer Risk in 25 Countries" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=79e9468b-079d-4ae8-a626-66d328160d95&autoAuth=true&ctid=574f8207-9650-449b-8d4b-5d4a7250173f" frameborder="0" allowFullScreen="true"></iframe>
 
 ## 結論
 吸菸是罹患肺癌的最大風險因子，戒菸是降低肺癌風險最有效的方法。
